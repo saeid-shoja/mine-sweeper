@@ -1,0 +1,51 @@
+.start {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startBtn {
+  background-color: rgb(127, 243, 127);
+  cursor: pointer;
+  color: rgb(53, 50, 46);
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 80px;
+  height: 40px;
+}
+
+.resetBtn {
+  padding: 10px 20px;
+  background-color: rgb(217, 255, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  cursor: pointer;
+  color: rgb(53, 50, 46);
+  font-weight: 900;
+  width: 80px;
+  height: 40px;
+}
+
+.numbers {
+  background-color: cornsilk;
+  display: flex;
+  flex-basis: content;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.timer {
+  width: 150px;
+  padding: 7px 25px 7px 25px;
+  background-color: rgb(195, 195, 219);
+}
+
+.bombNumber {
+  width: 150px;
+  padding: 7px 25px 7px 25px;
+  background-color: rgb(195, 195, 219);
+}
